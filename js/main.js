@@ -107,7 +107,7 @@ $(function() {
     	y: neg[2],
     	type: 'bar',
     	name: 'Neomycin',
-    	text: y: neg[2],
+    	text: neg[2],
     	textposition: 'bottom center'
     };
 
