@@ -97,7 +97,9 @@ $(function() {
     	x: neg[0],
     	y: neg[1],
     	type: 'bar',
-    	name: 'Penicilin'
+    	name: 'Penicilin',
+    	text: neg[1],
+    	textposition: 'bottom center'
     };
 
     var negativeN ={
@@ -105,13 +107,17 @@ $(function() {
     	y: neg[2],
     	type: 'bar',
     	name: 'Neomycin',
+    	text: y: neg[2],
+    	textposition: 'bottom center'
     };
 
     var negativeS ={
     	x: neg[0],
     	y: neg[3],
     	type: 'bar',
-    	name: 'Streptomycin'
+    	name: 'Streptomycin',
+    	text: neg[3],
+    	textposition: 'bottom center'
     };
 
     var dataset2 = [negativeP,negativeN,negativeS];
