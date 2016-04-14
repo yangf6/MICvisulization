@@ -1,0 +1,17 @@
+.visual{
+    overflow: auto;
+    border: 3px solid black;
+}
+
+.descr{
+    width: 300px;
+    padding: 10px;
+    padding-top: 100px;
+    padding-left: 50px;
+    clear: left;
+}
+
+#part1,#part2,#part3{
+    float: right;
+    width: 950px;
+}
